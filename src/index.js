@@ -45,6 +45,7 @@ console.log('Proje açıldı!')
 /* Kodlar Buradan aşağıya */
 
 const NavLink=document.querySelectorAll('nav a')
+console.log(NavLink)
 NavLink.forEach((link,index) =>{
   link.className="italic";
   link.textContent=siteContent.nav[`nav-item-${index+1}`];
